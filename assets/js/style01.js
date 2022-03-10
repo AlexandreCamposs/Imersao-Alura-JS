@@ -13,6 +13,8 @@ var notaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimest
 var notaFixa = notaFinal.toFixed(1)
 
 console.log("Bem vindo" + nome)
-
 console.log(notaFinal)
+
+// Revisão
+// Variáveis, strings, console.log, toFixed, operações, matemáticas, concatenação.
 
