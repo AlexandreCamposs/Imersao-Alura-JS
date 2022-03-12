@@ -1,5 +1,5 @@
 var nome = "Alexandre"
-consolo.log("Alexandre")
+
 var notaPrimeiroBimestre = 9
 
 var notaSegundoBimestre = 7
@@ -14,7 +14,3 @@ var notaFixa = notaFinal.toFixed(1)
 
 console.log("Bem vindo" + nome)
 console.log(notaFinal)
-
-// Revisão
-// Variáveis, strings, console.log, toFixed, operações, matemáticas, concatenação.
-
