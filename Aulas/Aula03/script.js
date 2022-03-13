@@ -1,13 +1,14 @@
-var numeroSecreto = 3;
+var numeroSecreto = parseInt(math.random() * 11);
 
 function Chutar() {
+  var elementoResultado = document.getElementById("resultado")
   var chute = parseInt(document.getElementById("valor").value);
   console.log(chute);
   if (chute == numeroSecreto) {
-    console.log("Você acertou");
+    elementoResultado.innerHTML = "Você acertou"
   } else if (chute > 10 || chute < 0) {
-    console.log("Você deve digitar um número de 0 a 10");
+    elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10"
   } else {
-    console.log("Você errou, tente outra vez.");
+    elementoResultado.innerHTML = "Você errou, tente outra vez."
   }
 }
