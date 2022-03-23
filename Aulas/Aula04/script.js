@@ -24,18 +24,38 @@
 //     for (var indice = 0; indice < listaFilmes.length; indice++) {
 // document.write("<p>" + listaFilmes[indice] + "</p>");
 // }
-var nomesFilmes = ["John", "Matrix", "Operação", ];
 var listaFilmes = [
-  "https://br.web.img3.acsta.net/pictures/17/01/10/15/05/404753.jpg",
-  "https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG",
-  "https://br.web.img3.acsta.net/pictures/19/02/15/20/16/2590161.jpg",
-  "https://assets0.minhaserie.com.br/uploads/editor_pictures/000/067/112/content_pic.jpg",
-  "https://media.fstatic.com/57VL3WncN-_T4ePswshOl-552F8=/290x478/smart/media/movies/covers/2018/03/bright_ver2_xlg.jpg",
+  {
+    url:"https://br.web.img3.acsta.net/pictures/17/01/10/15/05/404753.jpg",
+    name: 'Jhon Wick'
+  },
+  {
+    url:"https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG",
+    name: 'Matrix'
+  },
+  {
+    url:"https://br.web.img3.acsta.net/pictures/19/02/15/20/16/2590161.jpg",
+    name: 'Operação fronteira'
+  },
+  {
+    url:"https://assets0.minhaserie.com.br/uploads/editor_pictures/000/067/112/content_pic.jpg",
+    name: 'Animais Fantásticos'
+  },
+  {
+    url:"https://media.fstatic.com/57VL3WncN-_T4ePswshOl-552F8=/290x478/smart/media/movies/covers/2018/03/bright_ver2_xlg.jpg",
+    name: 'Bright'
+  },
 ];
- for (var filmes = 0; filmes < listaFilmes.length; filmes++){
-     document.write("<img src=" + listaFilmes[filmes] + ">");
-    //  document.write("<p>" + nomesFilmes[filmes] + "</p>");
- }
+
+listaFilmes.map((filme)=>{
+  document.write(`<img src='${filme.url}' />`)
+  document.write(`<p>${filme.name} </p>`)
+})
+
+//  for (var filmes = 0; filmes < listaFilmes.length; filmes++){
+//      document.write("<img src=" + listaFilmes[filmes] + ">");
+//     //  document.write("<p>" + nomesFilmes[filmes] + "</p>");
+//  }
 
 
  

@@ -1,11 +1,14 @@
+* {
+  text-align: center;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  background-image: url("img/s.jpg");
-  background-color: #000000;
-  background-size: 100vh;
-  margin-bottom: 100px;
-  background-position: center ;
+  background-image: url("img/campeonato.jpg");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -16,7 +19,7 @@ body {
 }
 
 .page-title {
-  color: #fadb2a;
+  color: #ffffff;
   margin: 0 0 5px;
 }
 
@@ -36,24 +39,18 @@ body {
   right: 10px;
 }
 
-input {
-  margin: 12px;
-  padding: 6px;
-  border-radius: 5px;
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
 }
 
-label {
+h1 {
   color: white;
 }
 
-button {
-  margin-top: 12px;
-  padding: 4px 8px;
-  border-radius: 10px;
-  background: #ffffff;
-}
-
-h2 {
-  color: #ffffff;
-  font-size: 30px;
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
 }
