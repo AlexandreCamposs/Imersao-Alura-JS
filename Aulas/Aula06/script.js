@@ -2,7 +2,8 @@ var ale = {nome:"ale", vitorias:0, empates:0, derrotas:0, pontos:0 };
 // console.log(ale.vitorias);
 var pedro = {nome:"pedro", vitorias:0, empates:0, derrotas:0, pontos:0};
 // console.log(pedro.empates);
-var enzo = {nome:"pedro", vitorias:0, empates:0, derrotas:0, pontos:0};
+var enzo = {nome:"enzo", vitorias:0, empates:0, derrotas:0, pontos:0};
+var samuca = {nome:"samuca", vitorias:0, empates:0, derrotas:0, pontos:0};
 
 
 function calcularPontos (jogador) {
@@ -13,9 +14,10 @@ function calcularPontos (jogador) {
 ale.pontos = calcularPontos(ale);
 pedro.pontos = calcularPontos(pedro);
 enzo.pontos = calcularPontos(enzo);
+samuca.pontos = calcularPontos(samuca);
 
 
-var jogadores = [ale,pedro,enzo];
+var jogadores = [ale,pedro,enzo,samuca];
 
 function exibeJogadoresNaTela(jogadores) {
   var elemento = ""
