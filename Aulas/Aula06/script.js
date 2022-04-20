@@ -1,9 +1,7 @@
-var ale = {nome:"ale", vitorias:0, empates:0, derrotas:0, pontos:0 };
-// console.log(ale.vitorias);
-var pedro = {nome:"pedro", vitorias:0, empates:0, derrotas:0, pontos:0};
-// console.log(pedro.empates);
-var enzo = {nome:"enzo", vitorias:0, empates:0, derrotas:0, pontos:0};
-var samuca = {nome:"samuca", vitorias:0, empates:0, derrotas:0, pontos:0};
+var ale = {nome:"Ale", vitorias:0, empates:0, derrotas:0, pontos:0 };
+var pedro = {nome:"Pedro", vitorias:0, empates:0, derrotas:0, pontos:0};
+var enzo = {nome:"Enzo", vitorias:0, empates:0, derrotas:0, pontos:0};
+var samuca = {nome:"Samuca", vitorias:0, empates:0, derrotas:0, pontos:0};
 
 
 function calcularPontos (jogador) {
