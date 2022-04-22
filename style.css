@@ -86,8 +86,12 @@ main ul {
     border-radius: 5px;
 
 }
-.fa-brands {
+.fa-github  {
     color: #547299;
+}
+.fa-linkedin-in {
+    color: #547299;
+
 }
 @media (max-width:450px) {
     .container {
