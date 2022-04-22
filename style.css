@@ -45,6 +45,7 @@ body {
     color: black;
     padding: 5px 30px;
     line-height: 25px;
+    margin-left: 30px;
 }
 .descricaolink {
     list-style: none;
@@ -54,9 +55,26 @@ main ul {
     font-size: 2rem;
     font-weight: 700;
     color: #1c1c1c;
+    margin-left: 30px;
+
 
 }
 .main  li a:hover{
     background-color: rgb(91, 84, 84);
     color: white;
+}
+@media (max-width:450px) {
+    .container {
+        padding: 0.5rem ;
+        margin:0.5rem;
+        margin-bottom: 10rem;
+    }
+    .main{
+        margin: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 7rem;
+    }
+    .perfil {
+        margin-top: 3rem;
+    }
 }
