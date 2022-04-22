@@ -93,7 +93,7 @@ main ul {
     color: #547299;
 
 }
-@media (max-width:450px) {
+@media (max-width:600px) {
     .container {
         padding: 0.5rem ;
         margin:0.5rem;
@@ -107,7 +107,8 @@ main ul {
     .perfil {
         margin-top: 3rem;
     }
-    .footer {
-        font-size: 1rem;
+    .footer h3{
+        font-size: 1rem !important;
     }
+
 }
