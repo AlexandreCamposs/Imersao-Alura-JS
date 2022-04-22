@@ -79,9 +79,12 @@ main ul {
     font-weight: 600;
     margin-left: 8px;
 }
-.footer a:hover {
+.footer a:hover .fa-brands {
     background-color: rgb(91, 84, 84);
-    padding: 2px 5px;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+
 }
 .fa-brands {
     color: #547299;
